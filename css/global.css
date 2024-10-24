@@ -1,0 +1,43 @@
+
+/* ======== start Home ======= */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    .navbar {
+        background-color: #D6934D;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+      }
+      
+      .logo img {
+        font-size: 3.5rem;
+        width: 93px;
+        margin-left: 34px;
+      }
+      
+      .nav-links {
+        list-style-type: none;
+        display: flex;
+        margin-right: 103px;
+      }
+      
+      .nav-links li {
+        margin-left:  72px;
+      }
+      
+      .nav-links a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+      }
+
+
+
+
+
+/* ====== end Home ===== */
