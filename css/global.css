@@ -1,0 +1,94 @@
+/* c'est une mon page detail  */
+@font-face {
+    font-family:Sofia;
+    src: url(/fonts/Sofia-Regular.ttf);
+}
+*{
+    margin:0;
+    padding:0;
+}
+.dl-header-img{
+    width: 1210px;
+    height: 600px;
+}
+.dl-logo-img{
+    width:89px;
+    height:89px;
+    position: absolute;
+    left:75px;
+}
+.dl-header-color{
+    width: 1210px;
+    height: 106px;
+    background-color:#D69249;
+    position: absolute;
+
+}
+.dl-header-liste{
+    position: absolute;
+    display:inline;
+}
+.dl-header-liste li{
+    display:inline;
+    margin:10px;
+  
+}
+.dl-header-liste li a{
+    display: inline;
+    margin: 10px;
+    text-decoration: none;
+    color: #3E362E;
+    position: relative;
+    left: 584px;
+    top: 38px;
+    font-size:20px;
+    font-family:Inter;
+}
+.dl-header-title{
+    position: absolute;
+    position: absolute;
+    left: 305px;
+    top: 129px;
+    font-size: 128px;
+    font-family:'sofia';
+    color:#7C532A;
+    text-shadow:5px 5px 5px  black;
+}
+
+.navbar{
+    display:flex; 
+}
+.dl-top-coun{
+    text-align: center;
+}
+.dl-top-coun h1{
+    font-family:'sofia';
+    font-size: 64px;
+}
+.dl-top-coun h2{
+    color:#93785B;
+    font-size:40px;
+    font-weight: 400;
+    font-family:Inter;
+}
+.dl-main-coun-centent{
+    display:flex;
+    justify-content:space-around;
+    margin:20px;
+}
+.dl-main-pt-img img{
+    width:172px;
+    height:115px;
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    
+}
+.dl-main-gr-img img{
+    height: 500px;
+    width: 480px;
+    cursor:pointer;
+}
+.dl-main-desc{
+    background-color: green;
+}
