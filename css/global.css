@@ -82,12 +82,43 @@
     display: flex;
     flex-direction: column;
     margin:10px;
+    cursor: pointer;
     
+}
+.dl-main-pt-img img:hover{
+    width: 195px;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    transition: 0.5s;
 }
 .dl-main-gr-img img{
     height: 500px;
     width: 480px;
     cursor:pointer;
+}
+.flech-d img{
+    width:48px;
+    height:48px;
+   
+}
+.flech-g img{
+    width:48px;
+    height:48px;
+    margin-right:35px;
+}
+#silder{
+    position:relative;
+    bottom: 220px;
+    margin-right:35px;
+    margin-left:35px;
+    border-radius:10px;
+}
+#silder:hover{
+    background-color:#AC8968  ;
+    transition:1s;
+   
 }
 .dl-main-desc{
     background-color: green;
