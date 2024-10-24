@@ -82,7 +82,9 @@
   .footeritems{
       width: 100%;
       display: flex;
-      justify-content: space-around;   
+      justify-content: space-around; 
+      flex-direction: column;
+      
   }
  
   .footertitles{
@@ -96,9 +98,9 @@
   .footerpharafraphs{
       font-size: 14px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
-      width: 300px ;
-      text-align: center;
-      /* margin: 10px; */
+      width: 400px ;
+      /* text-align: center; */
+align-self: center;
       color: #93785B;
       
   }
