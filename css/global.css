@@ -36,6 +36,68 @@
         font-weight: bold;
       }
 
+      
+    .hm-sec11 img{
+        width: 10px;
+        height: 10px;
+    } 
+    .hm-sec12{
+        border: 1px solid red;
+        width: 100%;
+        height: 200px;
+    }
+    .hm-sec12 img{
+         width: 100%;
+         height: 500px;
+    }
+    .hm-section22{
+        position: relative;
+    }
+    .hm-sec21 img{
+      width: 100%;
+      height: 500px;
+      margin-top: 340px;
+    }
+    .hm-sec22{
+    height: 500px;
+    width: 100%;
+    background-color: #0000005e;
+    position: absolute;
+    top: 340px;
+    }
+    .hm-sec23{
+      width: 700px;
+    
+      margin: auto;
+      position: absolute;
+    top: 65%;
+    left: 24%;
+    line-height: 35px;
+
+    }
+    .hm-sec23 p{
+      font-size: 20px;
+      font-weight: bold;
+      font-family: sans-serif;
+      color: white;
+      text-align: center;
+    }
+    .hm-sec23 button{
+      padding: 7px 20px;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 60px;
+      background-color: #93785B;
+      outline: none;
+      border: 1px solid black;
+      margin-left: 37%;
+      margin-top: 17px;
+      
+      
+    }
+
+
+
 
 
 
