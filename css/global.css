@@ -95,8 +95,40 @@
       
       
     }
+    .hm-section3{
+      width: 100%;
+      height: 300px;
+      margin-top: 40px;
+      background-color: #D8D2D2;
+      display: flex;
+      justify-content: space-around;
+    }
+    .hm-sec30{
+    
+      width: 90%;
+      display: flex;
+      justify-content:space-between;
+      margin-top: 5%;
+      font-family: sans-serif;
+    }
 
-
+   
+    .hm-section3 p{
+      width: 80%;
+          
+    }
+    /* .hm-section3 img{
+   
+} */
+   .hm-sec31 h2{
+      font-size: 70px;
+      margin-bottom: 30px;
+   }
+  .hm-section4{
+    border: 1px solid red;
+    width: 100%;
+    height: 400px;
+  }
 
 
 
