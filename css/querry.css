@@ -53,7 +53,7 @@
         border: none;
         background-color: #3E362E;
         color: white;
-        text-decoration-skip: ;
+        
     }
     .catalogueitemsbuttons{
         display: flex;
@@ -202,7 +202,7 @@
         border: none;
         background-color: #3E362E;
         color: white;
-        text-decoration-skip: ;
+      
     }
     .catalogueitemsbuttons{
         display: flex;
