@@ -1,4 +1,330 @@
 <<<<<<< HEAD
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+/* ========start header======= */
+
+  .navbar {
+      background-color: #D6934D;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+    
+    .logo img {
+      font-size: 3.5rem;
+      width: 93px;
+      margin-left: 34px;
+    }
+    
+    .nav-links {
+      list-style-type: none;
+      display: flex;
+      margin-right: 103px;
+    }
+    
+    .nav-links li {
+      margin-left:  72px;
+    }
+    
+    .nav-links a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+/* ====end header======== */
+
+
+/* ======start section1=========== */
+    
+  .hm-sec12{
+    
+        
+      width: 100%;
+      /* height: 200px; */
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+
+  }
+ 
+  
+  .hm-sec12 img{
+    width: 100%;
+    height: 500px;
+    display: none;
+   
+    
+    
+  }
+  .hm-button{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -300px;
+   
+    
+  }
+  .hm-sec12 img.active {
+    display: block;
+} 
+  /* =====js */
+  .hm-section22{
+    position: relative;
+  }
+  .hm-sec12 button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+ 
+
+
+  /* =====js */
+  .hm-sec21 img{
+    width: 100%;
+    height: 500px;
+    margin-top: 51px;
+   
+    /* display: none; */
+  }
+  .hm-sec22{
+  height: 500px;
+  width: 100%;
+  background-color: #0000005e;
+  position: absolute;
+  top: 50px;
+  }
+  .hm-sec23{
+    width: 700px;
+  
+    margin: auto;
+    position: absolute;
+  top: 46%;
+  left: 24%;
+  line-height: 35px;
+  
+
+  }
+  .hm-sec23 p{
+    font-size: 20px;
+    font-weight: bold;
+
+    color: white;
+    text-align: center;
+  }
+  .hm-sec23 button{
+    padding: 7px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 60px;
+    background-color: #93785B;
+    outline: none;
+    border: 1px solid black;
+    margin-left: 37%;
+    margin-top: 17px;
+    transition: 0.5s;
+    
+    
+  }
+  .hm-sec23 button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 10px gray;
+  }
+  .hm-section3{
+    width: 80%;
+    height: 300px;
+    margin-top: 40px;
+    /* background-color: #D8D2D2; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 100px;
+  }
+  .hm-sec30{
+  
+    width: 90%;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 5%;
+   
+  }
+
+ 
+  .hm-section3 p{
+    width: 80%;
+        
+  }
+
+ .hm-sec31 h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+ }
+.hm-section4{
+ 
+  width: 100%;
+  height: 400px;
+  margin-top: 90px;
+}
+.hm-sec40{
+width: 80%;
+
+margin: auto;
+position: relative;
+height: 120px;
+
+}
+.hm-sec41{
+width: 100%;
+display: flex;
+border: 1px solid black;
+border-top: none;
+border-left: none;
+border-right: none;
+justify-content: space-between;
+padding: 20px 0;
+position: absolute;
+
+}
+.hm-sec-btn{
+background-color: transparent;
+border: none;
+}
+.hm-sec41 p{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-family: sans-serif;
+ 
+  
+}
+.hm-sec42 p{
+  position: absolute;
+  
+ opacity: 0;
+  transition: 0.5s;
+ 
+
+}
+.hm-sec41:hover ~.hm-sec42 p{
+  opacity: 1;
+  top: 70px;
+  
+}
+.hm-sec42 p{
+color: gray;
+}
+
+.hm-section5{
+  
+  width: 80%;
+
+  margin: auto;
+  
+
+ 
+}
+
+.hm-sec51{
+  width: 70%;
+  height: 290px;
+  /* border: 1px solid rgb(132, 0, 255); */
+  background-color: #D9D9D9;
+  transition: 0.5s;
+  
+}
+.hm-sec51:hover{
+  /* margin:10px ; */
+ 
+  box-shadow: 0 0 10px gray;
+}
+.hm-sec51 p{
+  width: 196px;
+  margin: auto;
+  padding-left: 26px;
+  padding-top: 30px;
+  padding-bottom: 12px;
+
+}
+.hm-sec52{
+  display: flex;
+ 
+  margin-left: 20px;
+  width: 15%;
+  /* margin-bottom: 27px; */
+  margin-top: 20px;
+}
+.hm-sec52 span{
+   position: relative;
+   top: 30px;
+   left: -45px;
+}
+.hm-sec52 img{
+  width: 50px;
+  height: 50px;
+  margin-top: 6px;
+  padding-left: 10px;
+}
+.hm-sec52 h3{
+  width: 10px;
+  padding-left: 54px;
+  padding-top: 12px;
+  
+}
+.hm-sec51 button{
+  background-color: #A91313;
+  padding: 10px 25px;
+  margin-left: 63px;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  font-weight: bold;
+  transition: 0.9s;
+}
+.hm-sec51 button:hover{
+  background: linear-gradient(to left,black,red,black);
+}
+
+.hm-sec50 h2{
+  text-align: center;
+  font-size: 40px;
+  padding: 50px;
+}
+
+.hm-sec500{
+  
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr)     ;
+ 
+  margin-left: 44px;
+  
+  
+  
+}
+.hm-data{
+  position: relative;
+  top: 220px;
+}
+
+/* =====media query===== */
+
+
+
+/* ====== end Home ===== */
+=======
+<<<<<<< HEAD
 /* c'est une mon page detail  */
 @font-face {
     font-family:Sofia;
@@ -849,3 +1175,4 @@ body {
 >>>>>>> 180ef47dcf53c32ec3a930e0d9f0532992ab73cf
 
 >>>>>>> 962e2864f73e8110995ed9bf4ddd929ebb849f30
+>>>>>>> 370fdac45db3056240a40a424df541f27e121ccb
