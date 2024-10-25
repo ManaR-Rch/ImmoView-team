@@ -7,7 +7,7 @@
     margin:0;
     padding:0;
 }
-.dl-header-img{
+/* .dl-header-img{
     width: 1210px;
     height: 600px;
 }
@@ -43,7 +43,7 @@
     top: 38px;
     font-size:20px;
     font-family:Inter;
-}
+} */
 .dl-header-title{
     position: absolute;
     left: 305px;
@@ -54,9 +54,9 @@
     text-shadow:5px 5px 5px  black;
 }
 
-.navbar{
+/* .navbar{
     display:flex; 
-}
+} */
 .dl-top-coun{
     text-align: center;
 }
