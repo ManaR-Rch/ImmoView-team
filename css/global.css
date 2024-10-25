@@ -1,10 +1,9 @@
-<<<<<<< HEAD
-*{
+/* *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 
-}
+} */
 
 /* ========start header======= */
 
@@ -309,6 +308,7 @@ color: gray;
   grid-template-columns: repeat(3,1fr)     ;
  
   margin-left: 44px;
+  margin-bottom: 299px;
   
   
   
@@ -323,8 +323,7 @@ color: gray;
 
 
 /* ====== end Home ===== */
-=======
-<<<<<<< HEAD
+
 /* c'est une mon page detail  */
 @font-face {
     font-family:Sofia;
@@ -466,8 +465,8 @@ color: gray;
 }
 .house-icones{
     position: absolute;
-    right: 70px;
-    top: 1065px;
+    right: 85px;
+    top: 528px;
 }
 #house-icone {
   margin: 6px; 
@@ -476,10 +475,10 @@ color: gray;
     width: 36px;
     height: 42px;
 }
-.house-numbers{
-    position: absolute;
-    right: 119px;
-    top: 1113px;
+.house-numbers {
+  position: absolute;
+  right: 130px;
+  top: 585px;
 }
 #house-numbre3{
     position: absolute;
@@ -497,10 +496,10 @@ color: gray;
     position: absolute;
     right: -32px;
 }
-.dl-button-buy{
-    position: absolute;
-    right: 70px;
-    top: 1136px;
+.dl-button-buy {
+  position: absolute;
+  right: 77px;
+  top: 620px;
 }
 .dl-button-buy button{
     width: 188px;
@@ -538,24 +537,24 @@ color: gray;
    cursor: pointer;
 }
 .dl-pay-by{
-    width:200px;
-    height:50px;
-    border:1px solid black;
-    position: absolute;
-    right: 70px;
-    top:1201px;
+  width: 200px;
+  height: 92px;
+  border: 1px solid black;
+  position: absolute;
+  right: 60px;
+  top: 681px;
 }
 .dl-pay-text{
     background-color: #fff;
     position:absolute;
-    right: 147px;
-    top: 1191px;
+    right: 141px;
+     top: 671px;
     font-family:Inter;
 }
 .dl-py-icon{
-    position:absolute;
-    right: 147px;
-    top: 1193px;
+  position: absolute;
+  right: 137px;
+  top: 692px;
 }
 .dl-visa{
     position: absolute;
@@ -601,7 +600,7 @@ color: gray;
     width: 185px;
     position: absolute;
     left: 129px;
-    top: 1449px;
+    top: 1020px;
     opacity: 0;
 }
 .dl-quartier:hover{
@@ -618,11 +617,12 @@ color: gray;
     width: 185px;
     position: absolute;
     left: 518px;
-    top: 1449px;
     opacity: 0;
+    top:1020px;
 }
 .dl-jardin:hover{
     p{
+      margin-bottom: 340px;
         opacity:1;
         transition:0.5s;
     }
@@ -635,7 +635,7 @@ color: gray;
     width: 185px;
     position: absolute;
     left: 888px;
-    top: 1449px;
+    top: 1020px;
     opacity: 0;
 }
 .dl-hopital:hover{
@@ -655,13 +655,12 @@ color: gray;
     margin-left: 200px;
     width:587px;
     height:145px;
-    border-radius:50px;
     border:0 solid #9B9B9B;
     background-color:#9B9B9B;
     outline:none;
 }
 .dl-comment textarea::placeholder{
-   padding:20px;
+   margin:40px;
    color: #fff;
    font-size:14px;
    font-family: Inter;
@@ -761,8 +760,6 @@ color: gray;
     height:60px;
     margin-left:185px;
 }
-=======
-<<<<<<< HEAD
 /* section catalogue by ahouari */
 
 *{
@@ -793,12 +790,14 @@ color: gray;
 
 }
 .localisationfilter{
-   background-color: #93785B;
-   border: none;
-   width: 225px;
-   height: 50px;
-   border-radius: 45px;
-   font-size: 19px;
+  background-color: #93785B;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 45px;
+    font-size: 17px;
+    margin-left: -2px;
+    text-align: center;
 } 
 .cataloguefilteroptions{
     background-color:red;
@@ -807,7 +806,8 @@ color: gray;
 .filtertitle{
     font-size: 35px;
    
-    font-family: 'Trebuchet MS', sans-serif
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 23px;
 
 }
  
@@ -935,10 +935,6 @@ footer{
 /* end of section catalogue by ahouari */
 
 
-
-
-
-=======
 /* Base styles */
 body {
   margin: 0;
@@ -1022,6 +1018,7 @@ body {
   height: 84px;
   object-fit: cover;
   margin-left: 49px;
+  margin-bottom: 33px;
 }
 
 .card-content {
@@ -1052,7 +1049,7 @@ body {
 
 .card-rating {
   margin-top: 10px;
-  margin-left: 446px;
+  margin-left: 400px;
 }
 
 .star {
@@ -1085,7 +1082,7 @@ body {
 .form-group {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 119px;
+  gap: 22px;
 }
 
 .form-group input[type="text"] { 
@@ -1125,7 +1122,7 @@ body {
   text-align: center;
   padding: 20px 0;
   margin-bottom: 64px;
-  height: 60px;
+  height: 119px;
 }
 
 .banner h1 {
@@ -1172,7 +1169,12 @@ body {
 .next-btn {
   right: 10px;
 }
->>>>>>> 180ef47dcf53c32ec3a930e0d9f0532992ab73cf
 
->>>>>>> 962e2864f73e8110995ed9bf4ddd929ebb849f30
->>>>>>> 370fdac45db3056240a40a424df541f27e121ccb
+
+
+
+
+
+
+
+
