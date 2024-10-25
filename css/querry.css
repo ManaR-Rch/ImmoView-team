@@ -1,0 +1,172 @@
+/* Up to 767px (small screens) */
+@media (max-width: 767px) {
+  /* Navbar */
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+  }
+
+  .logo img {
+      width: 70px;
+      margin-left: 0;
+  }
+
+  .nav-links {
+      flex-direction: column;
+      margin-right: 0;
+  }
+
+  .nav-links li {
+      margin-left: 0;
+      margin-bottom: 10px;
+  }
+
+  /* Testimonials */
+  .testimonial-container {
+      grid-template-columns: 1fr;
+  }
+
+  .card {
+      width: 90%;
+      margin: 10px auto;
+      padding: 20px;
+  }
+
+  .card-image {
+      width: 80px;
+      height: 60px;
+  }
+
+  .card-content {
+      padding-left: 10px;
+  }
+
+  .card-name {
+      font-size: 1.8em;
+      margin-left: 0;
+  }
+
+  .card-title, .card-description, .card-rating {
+      margin-left: 0;
+  }
+
+  /* Contact Section */
+  .contact-section {
+      width: 90%;
+      padding: 20px;
+  }
+
+  .form-group {
+      grid-template-columns: 1fr;
+  }
+
+  .contact-form input[type="email"],
+  .contact-form input[type="tel"],
+  .contact-form input[type="password"] {
+      width: 100%;
+  }
+
+  .contact-form button {
+      width: 100%;
+  }
+
+  /* Banner */
+  .banner h1 {
+      font-size: 1.5em;
+  }
+
+  /* Carousel */
+  .carousel-slide img {
+      width: 90vw;
+      margin: 5px 0;
+  }
+
+  .carousel-btn {
+      font-size: 1.5em;
+      padding: 5px;
+  }
+}
+
+/* 768px to 1023px (medium screens) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Navbar */
+  .navbar {
+      padding: 10px 20px;
+  }
+
+  .logo img {
+      width: 80px;
+      margin-left: 20px;
+  }
+
+  .nav-links {
+      margin-right: 50px;
+  }
+
+  .nav-links li {
+      margin-left: 40px;
+  }
+
+  /* Testimonials */
+  .testimonial-container {
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .card {
+      width: 80%;
+      margin: 20px auto;
+      padding: 24px;
+  }
+
+  .card-image {
+      width: 100px;
+      height: 80px;
+  }
+
+  .card-name {
+      font-size: 2em;
+      margin-left: 150px;
+  }
+
+  .card-title, .card-description, .card-rating {
+      margin-left: 150px;
+  }
+
+  /* Contact Section */
+  .contact-section {
+      width: 90%;
+      padding: 30px;
+  }
+
+  .form-group {
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+  }
+
+  .contact-form input[type="email"],
+  .contact-form input[type="tel"],
+  .contact-form input[type="password"] {
+      width: 90%;
+  }
+
+  .contact-form button {
+      width: 60%;
+  }
+
+  /* Banner */
+  .banner h1 {
+      font-size: 1.8em;
+  }
+
+  /* Carousel */
+  .carousel-slide img {
+      width: 45vw;
+      margin: 5px;
+  }
+
+  .carousel-btn {
+      font-size: 1.8em;
+      padding: 8px;
+  }
+}
