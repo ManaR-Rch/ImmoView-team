@@ -139,7 +139,7 @@
   .hm-sec23 button:hover{
     background-color: black;
     color: white;
-    box-shadow: 0 0 10px;
+    box-shadow: 0 0 10px gray;
   }
   .hm-section3{
     width: 80%;
