@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/global.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/v4-shims.min.js"
-     integrity="sha512-gXYZ34cbCchjX/wdcI1HDXjtplfbLEKnCMj7xJbqnOJon+Fy3aHXTt+otc3jH0KxMHM4+j+oIAMyNi1XZ2U3ow==" 
-     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="/css/querry.css">
+    <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
 
 </head>
 
 <body>
     <header class="navbar">
         <div class="logo">
-            <img src="/assets/img-home/img1.png">
+            <img src="/assets/img-home/img0.png" alt="Logo">
         </div>
         <nav>
             <ul class="nav-links">
@@ -25,22 +26,27 @@
                 <li><a href="#">Témoignages</a></li>
             </ul>
         </nav>
+        <div class="burger-menu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </header>
     <section class="hm-section11">
         <div class="hm-sec11">
-            <button>
-                <img src="/assets/img-home/flech-g.png" alt="">
-            </button>
-            <button>
-                <img src="/assets/img-home/flech-d.png" alt="">
-            </button>
+            <div class="hm-sec12 ">
+             <img  src="/assets/img-home/img4.jpg" alt="" class="active">
+             <img  src="/assets/img-home/img5.jpg" alt="">
+             <img  src="/assets/img-home/img6.jpg" alt="">
+             <img  src="/assets/img-home/img7.jpg" alt="">
+            </div>
+            <div class="hm-button">
+            <button class="hm-prev" onclick="changeImage(-1)">&#10094; </button>
+            <button class="hm-next" onclick="changeImage(1)">&#10095;</button>
         </div>
-        <div class="hm-sec12">
-            <img src="/assets/img-home/img2.jpg" alt="">
-            <img src="/assets/img-home/down-arrow-svgrepo-com.svg" alt="">
-          
         </div>
     </section>
+
     <section class="hm-section22">
 
         <div class="hm-sec21">
@@ -197,8 +203,73 @@
 
 
 
+      <!-- foteer by abdrahman ahouari -->
+
 
     <script src="/js/Home.js"></script>
 </body>
+
+<footer>
+    <img
+      class="footerlogo"
+      src="/assets/catalogue images/logo.footer.png"
+      alt=""
+    />
+    <div class="footeritems">
+      <div class="footerlinks">
+        <h1 class="footertitles">Propriétés</h1>
+        <a class="footerlink" href="">Catalogue</a>
+        <a class="footerlink" href="">Détails du Bien</a>
+        <a class="footerlink" href="">Témoignages</a>
+        <a class="footerlink" href="">Accueil</a>
+      </div>
+      <div class="footertextitems">
+        <h1 class="footertitles">À propos de nous</h1>
+        <p class="footerpharafraphs">
+          Nous sommes une agence spécialisée dans la vente et la location de
+          biens immobiliers, offrant une sélection diversifiée de propriétés
+          allant des maisons de vacances aux résidences modernes et
+          contemporaines. Notre mission est de fournir à nos clients une
+          expérience fluide et personnalisée, en les accompagnant tout au long
+          du processus d'achat ou de location pour s'assurer qu'ils trouvent
+          la propriété qui correspond à leurs besoins et à leurs rêves.
+        </p>
+      </div>
+      <div class="footertextitems">
+        <h1 class="footertitles">Copyright</h1>
+        <p class="footerpharafraphs">
+© 2024 NomDeVotreEntreprise. Tous droits réservés.Le contenu de ce
+          site est protégé par les lois sur la propriété intellectuelle.Toute
+          reproduction, même partielle, est strictement interdite sans
+          autorisation.L’utilisation de ce site implique l’acceptation de nos
+          conditions générales d’utilisation.
+        </p>
+      </div>
+    </div>
+    <div class="resaufooter">
+      <div>
+        <a href="https://x.com/elonmusk/status/1836519906977943726"
+          ><img src="/assets/catalogue images/tweeter.png" alt=""
+        /></a>
+      </div>
+      <div>
+        <a href="https://www.facebook.com/groups/2616981278627207/"
+          ><img src="/assets/catalogue images/Facebook.png" alt=""
+        /></a>
+      </div>
+      <div>
+        <a href="https://www.instagram.com/coding_comedy/"
+          ><img src="/assets/catalogue images/instagram.png" alt=""
+        /></a>
+      </div>
+      <div>
+        <a
+          href="https://fr.linkedin.com/advice/1/youre-struggling-erp-inventory-integration-8mvfc?lang=fr"
+          ><img src="/assets/catalogue images/Linkedin.png" alt=""
+        /></a>
+      </div>
+    </div>
+  </footer>
+
 
 </html>

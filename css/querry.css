@@ -1,0 +1,131 @@
+
+
+/* =====media query===== */
+
+
+@media (max-width:767px) {
+   
+    .hm-sec12{
+        width: 100%;
+        
+
+    }
+    .hm-sec12 img{
+        height: 300px;
+    }
+    .hm-sec23 p{
+      font-size: 14px;
+      width: 239px;
+      margin-top: -99px;
+    }
+    .hm-sec23 button{
+
+      padding: 4px 10px;
+      font-size: 10px;
+      margin-left: 12%;
+    }
+    /* =========== section 3*/
+    .hm-sec30{
+      margin-top: -20px;
+    }
+    .hm-sec31 h1{
+     font-size: 10px;
+     margin-bottom: 18px;
+    }
+    .hm-sec31 p{
+      font-size: 10px;
+      width: 183px;
+      line-height: 15px;
+    }
+    .hm-sec32 img{
+      width: 89%;
+      margin-left: 95px;
+      margin-top: 3px;
+
+      
+    }
+    /* =========section4 */
+    
+     .hm-section4{
+      margin-top: -130px;
+      
+     }
+     .hm-sec41 p{
+      font-size: 14px;
+     }
+     .hm-sec42 p{
+      font-size: 7px;
+      width: 366px;
+      top: 26px;
+     }
+     .hm-sec40{
+      height: 90px;
+     }
+     /* ========section 5 */
+   
+    .hm-sec50{
+     margin-top: -120px;
+     
+    }
+    .hm-sec500{
+      display: block;
+      margin-top: 100px;
+     
+    
+    
+  }
+     .hm-sec50 h2{
+      font-size: 20px;
+      padding-bottom: 100px;
+     }
+     .hm-sec51{
+      margin-top: -140px;
+      
+   
+     
+     }
+     .hm-data{
+      top: 518px;
+    
+     }
+     .hm-sec51{
+      margin-left: 15px;
+     
+     }
+     .hm-sec52{
+      margin-left: 50px;
+      padding-top: 17px;
+     }
+     .hm-sec51 button{
+      margin-left: 80px;
+     }
+     .hm-button{
+      position: relative;
+      top: -160px;
+     }
+    }
+
+
+    /* =====hm paysage==== */
+    @media (min-width: 768px) and (max-width: 1023px){
+        .hm-sec12{
+            width: 100%;
+        }
+      
+        .hm-sec23{
+           
+            margin-left: -118px;
+            margin-top: -50px;
+        }
+        .hm-sec51{
+            width: 235px;
+          
+           margin-left: 10px;
+        }
+        .hm-sec500{
+            margin-left:-30px
+        }
+       
+       
+      
+    }
