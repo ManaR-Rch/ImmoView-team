@@ -46,7 +46,6 @@
 }
 .dl-header-title{
     position: absolute;
-    position: absolute;
     left: 305px;
     top: 129px;
     font-size: 128px;
@@ -71,6 +70,10 @@
     font-weight: 400;
     font-family:Inter;
 }
+.dl-main-title{
+    font-size:64px;
+    font-family:'sofia';
+}
 .dl-main-coun-centent{
     display:flex;
     justify-content:space-around;
@@ -87,8 +90,8 @@
     
 }
 .dl-main-pt-img img:hover{
-    width: 195px;
-    height: 139px;
+    width: 170px;
+    height: 130px;
     display: flex;
     flex-direction: column;
     margin:10px;
@@ -137,7 +140,7 @@
 .house-icones{
     position: absolute;
     right: 70px;
-    top: 932px;
+    top: 1065px;
 }
 #house-icone {
   margin: 6px; 
@@ -149,7 +152,7 @@
 .house-numbers{
     position: absolute;
     right: 119px;
-    top: 983px;
+    top: 1113px;
 }
 #house-numbre3{
     position: absolute;
@@ -170,7 +173,7 @@
 .dl-button-buy{
     position: absolute;
     right: 70px;
-    top: 1028px;
+    top: 1136px;
 }
 .dl-button-buy button{
     width: 188px;
@@ -213,19 +216,19 @@
     border:1px solid black;
     position: absolute;
     right: 70px;
-    top:1109px;
+    top:1201px;
 }
 .dl-pay-text{
     background-color: #fff;
     position:absolute;
     right: 147px;
-    top: 1100px;
+    top: 1191px;
     font-family:Inter;
 }
 .dl-py-icon{
     position:absolute;
     right: 147px;
-    top: 1100px;
+    top: 1193px;
 }
 .dl-visa{
     position: absolute;
@@ -253,19 +256,16 @@
     display:flex;
 }
 .dl-quartier img{
-    background-color:red;
     width: 307px;
     height: 355px;
     margin: 34px;
 }
 .dl-jardin img{
-    background-color:aqua;
     width: 307px;
     height: 355px;
     margin: 34px;
 }
 .dl-hopital img{
-    background-color:black;
     width: 307px;
     height: 355px;
     margin: 34px;

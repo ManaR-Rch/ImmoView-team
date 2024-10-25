@@ -1,1 +1,249 @@
 /* c'est une mon page detail  */
+@media  (min-width: 320px) and (max-width: 425px){
+    .dl-header-img {
+        width: 100%;
+        height: 600px;
+    }
+    #silder{
+        display: none;
+    }
+    .dl-header-liste{
+        display:none;
+    }
+    .dl-header-color{
+        width: 100%;
+        height: 58px;
+        background-color: #D69249;
+        position: absolute;
+    }
+}
+
+ @media  (768px <= width <=1023px){
+    .dl-header-img{
+        width: 748px;
+        height: 200px;
+    }
+    .dl-logo-img{
+        width: 53px;
+        height: 59px;
+        position: absolute;
+        left: 32px;
+    }
+    .dl-header-color{
+        width: 100%;
+        height: 58px;
+        background-color: #D69249;
+        position: absolute;
+    
+    }
+    .dl-header-liste{
+        display:none;
+    }
+    .dl-header-title{
+        position: absolute;
+        left: 59px;
+        top: 74px;
+        font-size: 56px;
+        font-family: 'sofia';
+        color: #7C532A;
+        text-shadow: 5px 5px 5px black;
+    }
+    .dl-main-title{
+        font-size:20px;
+    }
+    #silder{ 
+        display:none;
+    }
+    .dl-main-pt-img{
+        display:none;
+    }
+    .dl-main-gr-img img{
+        height: 382px;
+        width: 100%;
+        cursor: pointer;
+        
+    }
+    .dl-main-coun-centent{
+        display:block;
+    }
+     .dl-main-desc-conte{
+        font-size:12px;
+        font-family:Inter;
+        color:#3E362E;
+        position: relative;
+        left: 100px;
+        margin-top:10px;
+        line-height:20px;
+    }
+    .dl-main-desc-title{
+        text-align: center;
+        font-family:Inter;
+        color:#3E362E;
+        margin-left: 300px;
+    }
+    .house-icones{
+        position: absolute;
+        right: 50px;
+        top: 720px;
+    }
+    #house-icone {
+      margin: 6px; 
+    }
+    #house-icone img{
+        width: 36px;
+        height: 42px;
+    }
+    .house-numbers{
+        position: absolute;
+        right: 100px;
+        top: 780px;
+    }
+    .dl-button-buy{
+        position: absolute;
+        right: 90px;
+        top: 804px;
+    }
+    .dl-button-buy button {
+        width: 120px;
+        height: 25px;
+        border-radius: 50px;
+        background-color: #3E362E;
+        color: #fff;
+        font-size: 19px;
+        font-family: Inter;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .dl-pay-by {
+        width: 209px;
+        height: 50px;
+        border: 1px solid black;
+        position: absolute;
+        right: 38px;
+        top: 847px;
+    }
+    .dl-pay-text {
+        background-color: #fff;
+        position: absolute;
+        right: 110px;
+        top: 838px;
+        font-family: Inter;
+    }
+    .dl-py-icon {
+     
+            position: absolute;
+            right: 114px;
+            top: 840px;
+    }
+    .dl-title2 {
+            margin-left: 30px;
+            font-size: 24px;
+            font-family: Inter;
+            margin-top: 182px;
+    }
+    .dl-main2{
+        display:block;
+    }
+    .dl-quartier img {
+        width: 217px;
+        height: 176px;
+        margin: 10px;
+    }
+    .dl-jardin img {
+        width: 217px;
+        height: 176px;
+        margin: 10px;
+    }
+    .dl-hopital img {
+        width: 217px;
+        height: 176px;
+        margin: 10px;
+    }
+    .dl-quartier p{
+        width: 185px;
+        position: absolute;
+        left: 300px;
+        top: 1101px;
+        opacity: 1;
+        width:300px;
+    }
+    .dl-quartier:hover{
+        p{
+            opacity:1;
+            transition:0.5s;
+        }
+        img{
+            opacity:1;
+            transition:0.5s;
+        }
+    }
+    .dl-jardin p{
+        width: 185px;
+        position: absolute;
+        left: 300px;
+        top: 1297px;
+        opacity: 1;
+        width:300px;
+    }
+    .dl-jardin:hover{
+        p{
+            opacity:1;
+            transition:0.5s;
+        }
+        img{
+            opacity:1;
+            transition:0.5s;
+        }
+    }
+    .dl-hopital p{
+        width: 185px;
+        position: absolute;
+        left: 300px;
+        top: 1486px;
+        opacity: 1;
+        width:300px;
+    }
+    .dl-hopital:hover{
+        p{
+            opacity:1;
+            transition:0.5s;
+        }
+        img{
+            opacity:1;
+            transition:0.5s;
+        }
+    }
+    .dl-comment textarea{
+        margin-left: 200px;
+        width:587px;
+        height:145px;
+        border-radius:50px;
+        border:0 solid #9B9B9B;
+        background-color:#9B9B9B;
+        outline:none;
+    }
+    .dl-comment textarea {
+        margin-left: 112px;
+        width: 320px;
+        height: 61px;
+        border-radius: 50px;
+        border: 0 solid #9B9B9B;
+        background-color: #9B9B9B;
+        outline: none;
+    }
+    .dl-button-comment button {
+        width: 129px;
+        height: 30px;
+        border-radius: 50px;
+        background-color: #3E362E;
+        color: #fff;
+        font-size: 22px;
+        font-family: Inter;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        position: relative;
+        top: -56px;
+    }
+  }
