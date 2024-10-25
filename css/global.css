@@ -339,7 +339,7 @@
      /* ========section 5 */
     }
     .hm-sec50{
-     margin-top: -100px;
+     margin-top: -120px;
      
     }
     .hm-sec500{
@@ -365,9 +365,14 @@
      }
      .hm-sec51{
       margin-left: 15px;
+     
      }
      .hm-sec52{
       margin-left: 50px;
+      padding-top: 17px;
+     }
+     .hm-sec51 button{
+      margin-left: 80px;
      }
     
  
