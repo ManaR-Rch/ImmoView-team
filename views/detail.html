@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dédtail de bien</title>
+    <link rel="stylesheet" href= "/css/global.css">
+    <link rel="stylesheet" href= "/css/querry.css">
+</head>
+<body>
+    <!-- section de bar -->
+    <!-- <header class="navbar">
+        <nav class="dl-header-color"></nav>
+        <div class="dl-header-liste">
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#Catalogue">Catalogue</a></li>
+                <li><a href="#Détails du Bien">  Détails du Bien </a></li>
+                <li><a href="#Témoignages">Témoignages</a></li>
+            </ul>
+        </div>
+        <img src="/assets/img/pexels-alex-staudinger-829197-1732414.jpg" class="dl-header-img">
+        <img src="/assets/img/logo.png" class="dl-logo-img" >
+        <h1 class="dl-header-title">ImmoView</h1>
+    </header> -->
+    <header class="navbar">
+      <div class="logo">
+          <img src="/assets/imgs/logo.png" alt="Logo">
+      </div>
+      <nav>
+          <ul class="nav-links">
+              <li><a href="/views/Home.html">Home</a></li>
+              <li><a href="/views/catalogue.html">Catalogue</a></li>
+              <li><a href="/views/detail.html">Détails du Bien</a></li>
+              <li><a href="#">Témoignages</a></li>
+          </ul>
+      </nav>
+      <div class="burger-menu" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+  </header>
+  
+    <!-- fin section de bar -->
+
+     <!-- section de main -->
+      <main>
+            <div class="dl-top-coun">
+                <p class="dl-main-title">Coastal Paradise</p>
+                <h2 class="dl-main-prix">400,000 DH</h2>
+          </div>
+          <div class="dl-main-coun-centent">
+                <div class="dl-main-pt-img">
+                        <img src="/assets/img/384765898.jpg" alt="">
+                        <img src="/assets/img/340110946.jpg" alt="">
+                        <img src="/assets/img/347191703.jpg" alt="">
+                </div>
+             <div class="dl-main-gr-img">
+                <span class="flech-d"><img src="/assets/img/flech-g.png" id="silder"></span>
+                <img src="/assets/img/Beach_House_.jpg" class="dl-main-big-img" >
+                <span class="flech-d"><img src="/assets/img/flech-d.png" id="silder"></span>
+              </div>
+             <div class="dl-main-desc">
+                <p class="dl-main-desc-title">Description: </p>
+                <p class="dl-main-desc-conte">Une superbe maison de 4 chambres avec piscine privée, parfaite pour les réunions de famille.
+                     Située à quelques minutes de la plage, elle offre des espaces de vie spacieux et des coins 
+                     détente extérieurs pour des vacances relaxantes.</p>
+            </div>
+            <div class="house-icones">
+                <span id="house-icone"><img src="/assets/img/salle de bain1.png"></span>
+                <span id="house-icone"><img src="/assets/img/Chambre à coucher.png"></span>
+                <span id="house-icone"><img src="/assets/img/cuisine.png"></span>
+                <span id="house-icone"><img src="/assets/img/salle de bain.png"></span>
+            </div>
+            <div class="house-numbers">
+                <span id="house-numbre3">3</span>
+                <span id="house-numbre4">4</span>
+                <span id="house-numbre1">1</span>
+                <span id="house-numbre2">2</span>
+            </div>
+            <div class="dl-button-buy">
+                <button type="submit">Buy</button>
+            </div>
+            <div class="dl-pay-by">
+            </div>
+            <div class="dl-pay-text">
+                <p>Pay By</p>
+            </div>
+            <div class="dl-py-icon">
+                <img src="/assets/img/visa.png" class="dl-visa">
+                <img src="/assets/img/mastercard.png" class="dl-mastercard">
+                <img src="/assets/img/paypal.png" class="dl-paypal">
+            </div>
+      </main>
+      <main>
+            <p class="dl-title2">À propos du quartier :</p>
+            <div class="dl-main2">
+                <div class="dl-quartier">
+                    <img src="/assets/img/quartier.jpg">
+                    <p>
+                        La villa se trouve dans un domaine résidentiel exclusif en dehors de la ville, offrant tranquillité et intimité, tout en étant à proximité des commodités essentielles. Ce domaine abrite des maisons similaires, créant un cadre harmonieux et sécurisé
+                    </p>
+                </div>
+                <div class="dl-jardin">
+                    <img src="/assets/img/jardin.jpg">
+                    <p>À seulement quelques minutes à pied, vous trouverez un petit jardin pour les enfants, ainsi qu’un espace de détente au bord de la plage, parfait pour des moments en famille</p>
+                </div>
+                <div class="dl-hopital">
+                    <img src="/assets/img/hopital.png">
+                    <p>Le quartier est également équipé d’un hôpital pour des soins de santé rapides et accessibles, assurant un confort de vie maximal à ses résidents.</p>
+                </div>
+            </div>
+            <div class="dl-count-comment">
+                <div class="dl-comment">
+                    <textarea class="dl-commentaire" placeholder="Écrivez votre commentaire"></textarea>
+                </div>
+                <div class="dl-button-comment">
+                    <button type="submit">Envoyer</button>
+                </div>
+            </div>
+      </main>
+    <!-- fin de main -->
+      <!-- section footer -->
+      <footer>
+        <img
+          class="footerlogo"
+          src="/assets/catalogue images/logo.footer.png"
+          alt=""
+        />
+        <div class="footeritems">
+          <div class="footerlinks">
+            <h1 class="footertitles">Propriétés</h1>
+            <a class="footerlink" href="/views/catalogue.html">Catalogue</a>
+            <a class="footerlink" href="/views/detail.html">Détails du Bien</a>
+            <a class="footerlink" href="">Témoignages</a>
+            <a class="footerlink" href="/views/Home.html">Accueil</a>
+          </div>
+          <div class="footertextitems">
+            <h1 class="footertitles">À propos de nous</h1>
+            <p class="footerpharafraphs">
+              Nous sommes une agence spécialisée dans la vente et la location de
+              biens immobiliers, offrant une sélection diversifiée de propriétés
+              allant des maisons de vacances aux résidences modernes et
+              contemporaines. Notre mission est de fournir à nos clients une
+              expérience fluide et personnalisée, en les accompagnant tout au long
+              du processus d'achat ou de location pour s'assurer qu'ils trouvent
+              la propriété qui correspond à leurs besoins et à leurs rêves.
+            </p>
+          </div>
+          <div class="footertextitems">
+            <h1 class="footertitles">Copyright</h1>
+            <p class="footerpharafraphs">
+  © 2024 NomDeVotreEntreprise. Tous droits réservés.Le contenu de ce
+              site est protégé par les lois sur la propriété intellectuelle.Toute
+              reproduction, même partielle, est strictement interdite sans
+              autorisation.L’utilisation de ce site implique l’acceptation de nos
+              conditions générales d’utilisation.
+            </p>
+          </div>
+        </div>
+        <div class="resaufooter">
+          <div>
+            <a href="https://x.com/elonmusk/status/1836519906977943726"
+              ><img src="/assets/catalogue images/tweeter.png" alt=""
+            /></a>
+          </div>
+          <div>
+            <a href="https://www.facebook.com/groups/2616981278627207/"
+              ><img src="/assets/catalogue images/Facebook.png" alt=""
+            /></a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/coding_comedy/"
+              ><img src="/assets/catalogue images/instagram.png" alt=""
+            /></a>
+          </div>
+          <div>
+            <a
+              href="https://fr.linkedin.com/advice/1/youre-struggling-erp-inventory-integration-8mvfc?lang=fr"
+              ><img src="/assets/catalogue images/Linkedin.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </footer>
+       <!--  fin section footer -->
+</body>
+</html>
