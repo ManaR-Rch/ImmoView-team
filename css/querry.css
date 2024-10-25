@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* section de querry catalogue by ahouari */
 
 /* phone catalogue by ahouari */
@@ -312,3 +313,222 @@
 /* tablette catalogue by ahouari */
 
 /* section de querry catalogue by ahouari */
+=======
+
+@media (max-width: 768px) { 
+
+  .nav-links {
+    display: none; 
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #D6934D;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .nav-links.show {
+    display: flex; 
+  }
+
+  .nav-links li {
+    margin: 15px 0;
+  }
+
+  .burger-menu {
+    display: flex; 
+  }
+
+  .first-title {
+    font-size: 3rem; 
+    margin-left: 20px;
+    margin-top: 40px; 
+    margin-bottom: 40px;
+  }
+
+  .testimonial-container {
+    grid-template-columns: 1fr; 
+    gap: 20px; 
+  }
+
+  .card {
+    width: auto; 
+    margin: 10px 20px;
+    height: auto; 
+  }
+
+  .card-name {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .card-title {
+    margin-left: 0; 
+  }
+
+  .card-rating {
+    margin-left: 0; 
+    text-align: center;
+  }
+    .contact-section {
+      padding: 20px; 
+      width: 90%; 
+    }
+  
+    .contact-section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+  
+    .form-group {
+      grid-template-columns: 1fr; 
+      gap: 15px; 
+    }
+  
+    .form-group input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form input[type="tel"],
+    .contact-form input[type="password"] {
+      width: 100%; 
+      padding: 12px;
+    }
+  
+    .contact-form button {
+      width: 100%; 
+      font-size: 18px; 
+    }
+
+    .banner {
+      padding: 15px 0;
+      height: auto; 
+    }
+  
+    .banner h1 {
+      font-size: 1.8em; 
+    }
+  
+    .carousel-slide {
+      width: calc(100% * 5); 
+    }
+  
+    .carousel-slide img {
+      width: calc(100vw - 40px);
+      margin: 10px auto;
+    }
+   
+  
+    .carousel-btn {
+      font-size: 1.5em; 
+      padding: 8px;
+    }
+  
+}
+
+
+@media (min-width: 767px) and (max-width: 1023px) {
+  /* Navbar */
+  .navbar {
+    padding: 10px 15px;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    position: static; 
+     }
+
+  .burger-menu {
+    display: none;
+  }
+
+ 
+  .first-title {
+    font-size: 2.5rem;
+    margin: 30px 10px;
+  }
+
+  /* Testimonial Section */
+  .testimonial-container {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px;
+    padding: 0 20px;
+  }
+
+  .card {
+    margin: 15px;
+    width: 100%; 
+  }
+
+  .card-name,
+  .card-title,
+  .card-rating {
+    margin: 5px 10px;
+  }
+
+  /* Contact Section */
+  .contact-section {
+    padding: 30px 5%;
+    width: 90%;
+  }
+
+  .contact-section h2 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+  }
+
+  .form-group {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .form-group input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form input[type="tel"],
+  .contact-form input[type="password"] {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 10px;
+  }
+
+  .contact-form button {
+    width: 80%;
+    font-size: 1.2em;
+  }
+
+  /* Banner */
+  .banner {
+    padding: 15px;
+    height: auto;
+  }
+
+  .banner h1 {
+    font-size: 2rem;
+  }
+
+  /*  Slide */
+  .carousel-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .carousel-slide img {
+    width: calc(33.33% - 10px); 
+    margin: 0 5px;
+    border-radius: 8px;
+  }
+
+  .carousel-btn {
+    font-size: 1.8em;
+    padding: 8px;
+  }
+}
+>>>>>>> 180ef47dcf53c32ec3a930e0d9f0532992ab73cf
