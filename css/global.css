@@ -41,12 +41,14 @@
 
 .filtertitle{
     font-size: 35px;
-    margin-left: 425px;
+   
     font-family: 'Trebuchet MS', sans-serif
 
 }
  
-
+.filtertitle2{
+    text-align: center;
+}
 
 
 
@@ -119,8 +121,8 @@ footer{
 .footeritems{
     width: 100%;
     display: flex;
-    justify-content: space-around;   
-}
+    justify-content: space-around; 
+}  
 
 
 
