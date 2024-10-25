@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Témoignages - C&T Properties LLC</title>
-    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="test1.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="/css/querry.css">
+
 </head>
 <body style="background-color:#E8E8E8 ;">
 
     <header class="navbar">
         <div class="logo">
-            <img src="/assets/imgs/logo.png">
+            <img src="logo.png">
         </div>
         <nav>
             <ul class="nav-links">
@@ -22,10 +22,11 @@
             </ul>
         </nav>
     </header>
+    <!-- <main class="testimonials"> -->
       <section class="testimonial-container">
       <div class="card">
+        <img src="image.jpg" alt="Person Image" class="card-image">
         <div class="card-content">
-          <img src="/assets/imgs/profile1.jpg" alt="Person Image" class="card-image">
           <h2 class="card-name">Jane Cooper</h2>
           <p class="card-title">Medical Assistant</p>
           <p class="card-description">
@@ -41,9 +42,8 @@
         </div>
       </div>
       <div class="card">
-        
+        <img src="image.jpg" alt="Person Image" class="card-image">
         <div class="card-content">
-          <img src="/assets/imgs/profile2.jpg" alt="Person Image" class="card-image">
           <h2 class="card-name">Jane Cooper</h2>
           <p class="card-title">Medical Assistant</p>
           <p class="card-description">
@@ -59,9 +59,8 @@
         </div>
       </div>
       <div class="card">
-   
+        <img src="image.jpg" alt="Person Image" class="card-image">
         <div class="card-content">
-          <img src="/assets/imgs/profile3.jpg" alt="Person Image" class="card-image">
           <h2 class="card-name">Jane Cooper</h2>
           <p class="card-title">Medical Assistant</p>
           <p class="card-description">
@@ -77,8 +76,8 @@
         </div>
       </div>
       <div class="card">
+        <img src="image.jpg" alt="Person Image" class="card-image">
         <div class="card-content">
-          <img src="/assets/imgs/profile4.jpg" alt="Person Image" class="card-image">
           <h2 class="card-name">Jane Cooper</h2>
           <p class="card-title">Medical Assistant</p>
           <p class="card-description">
@@ -94,8 +93,8 @@
         </div>
       </div>
       <div class="card">
+        <img src="image.jpg" alt="Person Image" class="card-image">
         <div class="card-content">
-        <img src="/assets/imgs/profile5.png" alt="Person Image" class="card-image">
           <h2 class="card-name">Jane Cooper</h2>
           <p class="card-title">Medical Assistant</p>
           <p class="card-description">
@@ -111,8 +110,8 @@
         </div>
       </div>
       <div class="card">
+        <img src="image.jpg" alt="Person Image" class="card-image">
         <div class="card-content">
-        <img src="/assets/imgs/profile6.jpg" alt="Person Image" class="card-image">
           <h2 class="card-name">Jane Cooper</h2>
           <p class="card-title">Medical Assistant</p>
           <p class="card-description">
@@ -200,53 +199,28 @@
               <button type="submit">Register</button>
           </form>
       </section>
-      <div class="banner">
-        <h1>Votre Confiance en Images :</h1>
-    </div>
-    <div class="carousel-container">
-      <div class="carousel-slide">
-          <img src="/assets/imgs/pic1.jpg" alt="Image 1">
-          <img src="/assets/imgs/pic2.jpg" alt="Image 2">
-          <img src="/assets/imgs/pic3.png" alt="Image 3">
-          <img src="/assets/imgs/pic4.jpeg" alt="Image 4">
-          <img src="/assets/imgs/pic5.jpg" alt="Image 5">
-      </div>
-      <button id="prevBtn" class="carousel-btn prev-btn">&#10094;</button>
-      <button id="nextBtn" class="carousel-btn next-btn">&#10095;</button>
-  </div>
-  <!-- Footer Section -->
-<footer>
-  <div class="footer-container">
-      <div class="footer-section">
-          <h3>Propriétés</h3>
-          <ul>
-              <li><a href="#">Catalogue</a></li>
-              <li><a href="#">Détails du Bien</a></li>
-              <li><a href="#">Témoignages</a></li>
-              <li><a href="#">Accueil</a></li>
-          </ul>
-      </div>
+      <section class="gallery-section">
+        <h2>Votre Confiance en Images :</h2>
+        <div class="gallery-container">
+          <button class="arrow-btn left" onclick="prevSlide()">
+            <span class="material-icons">arrow_back</span>
+          </button>
+          <div class="carousel">
+            <img class="carousel-image" src="pic1.jpg" alt="Image 1">
+            <img class="carousel-image" src="pic2.jpg" alt="Image 2">
+            <img class="carousel-image" src="pic3.png" alt="Image 3">
+            <img class="carousel-image" src="pic4.jpeg" alt="Image 4">
+            <img class="carousel-image" src="pic5.jpg" alt="Image 5">
 
-      <div class="footer-section">
-          <h3>À propos de nous</h3>
-          <p>Nous sommes une agence spécialisée dans la vente et la location de biens immobiliers, offrant une sélection diversifiée de propriétés allant des maisons de vacances aux résidences modernes et contemporaines.</p>
-      </div>
-      <div class="footer-section">
-        <h3>Copyright</h3>
-        <p>&copy; 2024 NomDeVotreEntreprise. Tous droits réservés.</p>
-        <p>Le contenu de ce site est protégé par les lois sur la propriété intellectuelle. Toute reproduction, même partielle, est strictement interdite sans autorisation.</p>
-    </div>
 
-    <div class="social-media">
-        <a href="#"><img src="facebook.png" alt="Facebook"></a>
-        <a href="#"><img src="instagram.png" alt="Instagram"></a>
-        <a href="#"><img src="twitter.png" alt="Twitter"></a>
-        <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
-    </div>
-</div>
-</footer>
+        </div>
+          <button class="arrow-btn right" onclick="nextSlide()">
+            <span class="material-icons">arrow_forward</span>
+          </button>
+        </div>
+    </section>
 
-    <script src="/js/script.js"></script>
+    <script src="script.js"></script>
       
 </body>
 </html>
